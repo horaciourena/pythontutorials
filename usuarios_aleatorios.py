@@ -1,5 +1,6 @@
 import requests
 from random import randint
+
 url = 'https://svnweb.freebsd.org/csrg/share/dict/words?view=co&content-type=text/plain'
 datos = requests.get(url)
 texto = datos.text
