@@ -26,7 +26,7 @@ for letra in palabra:
     print(palabra[contador_indices])
     contador_indices += 1
 
-ENUMARATE
+# ENUMARATE
 for item in enumerate(palabra):
     print(item)
 
